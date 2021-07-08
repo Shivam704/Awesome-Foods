@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Food Delivery Service in India | AwesomeFoods.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftcol">
+            <header>
+                <a href="index.html">
+                    <h1>Awesome Foods</h1>
+                </a>
+                <nav id="mySidebar" class="sidebar">
+                    <div id="menu-btn">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    </div>
+                    <ul id="main-menu">
+                        <li class="item"><a href="#">About</a></li>
+                        <li class="item"><a href="#">Services</a></li>
+                        <li class="item"><a href="#">Cuisine</a></li>
+                        <li class="item"><a href="#">Gallery</a></li>
+                        <li class="item"><a href="#">Contact</a></li>
+                        <li class="item"><a href="#">Book</a></li>
+                    </ul>
+                    <a href="#"><button class="btn">Cart</button></a>
+                </nav>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>
+                </div>
+                <div id="cart-btn">
+                    <button class="btn2"><img src="cart.jpg" href="#" height=50px width=50px></button>
+                </div>
+            </header>
+        </div>
+        <div id="content">
+            <section id="home">
+                <p class="primary">What are you having for lunch?</p>
+            </section>
+            <div class="cards">
+                <div class="card">
+                    <a href="#">
+                        <img src="Mexican Tako.jpg" alt="Mexican Tako" height=150px width=150px>
+                        <div class="lines">
+                            <p class="name">
+                                Mexican Tako
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="Chicken Burger.jpg" alt="Chicken Burger" height=150px width=150px>
+                        <div class="lines">
+                            <p class="name">
+                                Chicken Burger
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="Farmhouse Pizza.png" alt="Farmhouse Pizza" height=150px width=150px>
+                        <div class="lines">
+                            <p class="name">
+                                Farmhouse Pizza
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="Hakka Noodles.jpg" alt="Hakka Noodles" height=150px width=150px>
+                        <div class="lines">
+                            <p class="name">
+                                Hakka Noodles
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="Loaded Nachos.jpg" alt="Loaded Nachos" height=150px width=150px>
+                        <div class="lines">
+                            <p class="name">
+                                Loaded Nachos
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="info">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi ab.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+
+</html>

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    background-color: white;
+}
+
+#leftcol {
+    padding: 40px;
+
+}
+
+#leftcol header a {
+    text-decoration: none;
+    color: black;
+}
+
+#leftcol header a h1 {
+    width: 12vw;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#leftcol header nav {
+    padding: 30px 0;
+}
+
+#leftcol header nav ul {
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+#leftcol header nav ul li {
+    padding: 20px 15px;
+}
+
+#leftcol header nav ul li a {
+    color: gray;
+}
+
+#leftcol header nav button a {
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    margin: 25px 39px;
+    width: 105px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgba(236, 27, 62, 0.863);
+    border-radius: 20px;
+    border: hidden;
+    cursor: pointer;
+    color: white;
+}
+
+#content {
+    padding: 141px 10px;
+    overflow: hidden;
+    
+}
+
+#home {
+    display: flex;
+    font-size: 55px;
+    width: 43vw;
+    font-weight: bold;
+    padding: 0 0 32px 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.cards {
+    display: flex;
+    
+
+}
+
+.card {
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    background-color: white;
+    height: 193px;
+    width: 141px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 25px rgb(49 37 37 / 27%);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#content img {
+    padding: 10px;
+    border-radius: 75px;
+    height: 120px;
+    width: 120px;
+    margin: 13px 0 0 0;
+
+}
+
+.lines {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.info{
+    height: 19vh;
+    width: 13vw;
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    font-size: 19px;
+    color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow: hidden;
+}
+#main{
+    visibility: hidden;
+}
+#menu-btn{
+    visibility: hidden;
+}
+#cart-btn{
+    visibility: hidden;
+}
+.btn2{
+    border: none;
+    border: hidden;
+}

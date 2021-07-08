@@ -1,0 +1,93 @@
+@media screen and (max-width:1000px){
+     #container{
+         flex-direction: column;
+         height: 100vh;
+         overflow: hidden;
+     }
+     #leftcol{
+         padding: 0 40px;
+     }
+     #leftcol header a h1{
+        padding: 0 0 0 69px;
+     }
+
+     #content{
+         padding: 0 0 0 45px;
+     }
+
+     #home{
+         font-size: 27px;
+         width: 70vw;
+     }
+     
+     .info{
+         position:static;
+         padding: 10px;
+         width: auto;
+     }
+}
+@media screen and (max-width: 1000px) {
+    .sidebar {padding-top: 100px;}
+    .sidebar a {font-size: 18px;}
+
+    .openbtn {
+        position: relative;
+        bottom: 68px;
+        left: -16px;
+    }
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: white;
+        color: rgb(194, 72, 93);
+        padding: 10px 15px;
+        border: none;
+    }
+    
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 0px;
+        visibility: visible;
+    }
+    #menu-btn{
+        visibility: visible;
+    }
+    #cart-btn{
+        visibility: visible;
+        position: relative;
+        bottom: 118px;
+        left: 254px;
+    }
+}
